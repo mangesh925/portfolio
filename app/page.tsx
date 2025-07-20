@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { MdWorkOutline, MdFolderOpen, MdOutlineArticle } from "react-icons/md";
+import { MdFolderOpen, MdOutlineArticle } from "react-icons/md";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 
 export default function Home() {
@@ -37,14 +37,7 @@ export default function Home() {
             <MdFolderOpen size={20} />
             <span className="nav-text-underline">Projects</span>
           </Link>
-          <Link
-            href="/work"
-            className="flex items-center gap-1 no-underline text-left"
-            style={{ color: "var(--foreground)" }}
-          >
-            <MdWorkOutline size={20} />
-            <span className="nav-text-underline">Experience</span>
-          </Link>
+          
           <a
             href="https://www.linkedin.com/in/mangeshjahirrao/"
             target="_blank"
